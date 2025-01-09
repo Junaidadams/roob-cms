@@ -10,19 +10,16 @@ export default {
       validation: (Rule) => Rule.required(),
     },
     {
-      name: 'price',
-      title: 'Price',
+      name: 'lineartPrice',
+      title: 'Lineart Price',
       type: 'number',
       validation: (Rule) => Rule.required().min(0),
     },
     {
-      name: 'currency',
-      title: 'Currency',
-      type: 'string',
-      options: {
-        list: ['USD', 'ZAR', 'EUR'],
-      },
-      validation: (Rule) => Rule.required(),
+      name: 'colourPrice',
+      title: 'Colour Price',
+      type: 'number',
+      validation: (Rule) => Rule.required().min(0),
     },
     {
       name: 'description',
