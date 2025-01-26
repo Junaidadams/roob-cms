@@ -31,5 +31,13 @@ export default {
       title: 'Valid Until',
       type: 'datetime',
     },
+    {
+      name: 'image',
+      title: 'Image',
+      type: 'image',
+      options: {
+        hotspot: true,
+      },
+    },
   ],
 }
