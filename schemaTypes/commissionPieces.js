@@ -3,7 +3,7 @@
 export default {
   name: 'commissionPiece',
   title: 'Commission Piece',
-  type: 'document', // This makes it a document type
+  type: 'document',
   fields: [
     {
       name: 'title',
